@@ -1,6 +1,6 @@
 {
-  "name": "holidates",
-  "version": "1.0.0",
+  "name": "@haerphi/holidates",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {

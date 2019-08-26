@@ -18,15 +18,10 @@ var figlet = require('figlet');
 let country = "";
 let year = "";
 
-// write the big title ( need to change it into a promess)
-figlet(`Holidays`, function (err, data) {
-    if (err) {
-        console.log('Something went wrong...');
-        console.dir(err);
-        return;
-    }
-    console.log(data)
-});
+console.log(figlet.textSync('Holidays', {
+    horizontalLayout: 'default',
+    verticalLayout: 'default'
+}));
 
 //Get the arguments we need (2 {country} and 3 {year})
 process.argv.forEach((val, index) => {
@@ -48,7 +43,7 @@ if (countryID != undefined) {
     const spinner = ora('Loading unicorns').start();
 
     // let a little delay before the axios request (just to admire the loading animation)
-    setTimeout(rqtAxios, 5000);
+    setTimeout(rqtAxios, 3000);
 
     function rqtAxios() {
         // AXIOS request
