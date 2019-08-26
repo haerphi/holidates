@@ -12,7 +12,8 @@ or
 `node . france 2000`
 
 You should get something like this:
-```$ node . france
+```
+$ node . france
   _   _       _ _     _                 
  | | | | ___ | (_) __| | __ _ _   _ ___ 
  | |_| |/ _ \| | |/ _` |/ _` | | | / __|
@@ -33,4 +34,5 @@ You should get something like this:
 2019-11-01 - La Toussaint
 2019-11-11 - Armistice de 1918
 2019-12-25 - Noël
-2019-12-26 - Saint-Étienne```
+2019-12-26 - Saint-Étienne
+```
