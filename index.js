@@ -5,6 +5,7 @@ const {
     getCode,
     getName
 } = require('country-list');
+const ora = require('ora');
 
 let country = "";
 let year = "";
@@ -19,6 +20,7 @@ process.argv.forEach((val, index) => {
 if (year === "") { //si l'année n'est pas précisé
     year = new Date().getFullYear();
 }
+
 if (country != undefined) {
     //Requête AXIOS
     let url = `https://date.nager.at/api/v2/publicholidays/${year}/${country}`;
