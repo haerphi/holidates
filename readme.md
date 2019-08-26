@@ -4,14 +4,14 @@ With this npm-package you'll know when you'll be in holiday (legally)!
 ### Install
 `npm install @haertphi/holidates`
 ### Test
-Just put this line in your index file:
-`const test = require('@haerphi/holidates');`
-And run:
-`node . france`
-or
-`node . france 2000`
+Just put this line in your index file:  
+`const test = require('@haerphi/holidates');`  
+And run:  
+`node . france`  
+or  
+`node . france 2000`  
 
-You should get something like this:
+You should get something like this:  
 ```
 $ node . france
   _   _       _ _     _                 
